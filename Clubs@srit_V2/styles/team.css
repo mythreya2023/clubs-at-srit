@@ -1,0 +1,81 @@
+.team-member{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(80, 76, 76, 0.73);
+    margin-bottom: 10px;
+    padding-bottom:6px;
+}
+.mem-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mem-txt-det{
+    margin-left: 10px;
+}
+.mem-name{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}
+.mem-role{
+    color: #000;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin:0px;
+margin-top: 5px;
+}
+.img-sq{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.add-team-member-container{
+    display: none;
+}
+.search-user-box {
+    width: 90%;
+    border-radius: 9px;
+    background: #F5F5F5;
+}
+
+.mem-details.searched-user-det {
+    width: fit-content;
+    padding: 8px;
+}
+.user-search-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid #c7bebebd;
+}
+.role-selection-box{
+    width:90%;
+    border-radius: 9px;
+    background: #F5F5F5;
+}
+.role-selection-box .select-role{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-bottom:1px solid #c7bebebd;
+padding: 5px;
+padding-left: 10px;
+}
+.role-selection-box .select-role:last-child{
+    border:none;
+}

@@ -1,0 +1,127 @@
+body{
+    background: #E3FAFD;
+}
+.header{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    flex-shrink: 0;
+    background: #E3FAFD;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.greet_name{
+    color: #4D4A4A;
+font-family: Inria Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+padding:0;
+}
+.greet_user{
+    margin: 0;
+    padding:0;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.clubs-section{
+    width:93%;
+    height: 250px;
+    padding-left: 7%;
+    margin: 5px 0 10px 0;
+}
+.clubs-list{
+    width:100%;
+    padding-top:10px;
+    min-height: 190px;
+    margin-left: -29px;
+    padding-left:29px;
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+.clubs-list {
+    -ms-overflow-style: none;  /* for Internet Explorer, Edge */
+    scrollbar-width: none;  /* for Firefox */
+}
+
+.clubs-list::-webkit-scrollbar {
+    display: none;  /* for Webkit browsers */
+}
+
+.club-heading{
+    color: #000;
+font-family: Istok Web;
+font-size: 26px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.clubs-list{
+    display: flex;
+    flex-flow: row;
+}
+.create-club-btn{
+    width: 173px;
+height: 151px;
+flex-shrink: 0;
+text-align: center;
+margin: 4px 15px 0 0;
+border-radius: 13px;
+background: #FFF;
+box-shadow: 0px 7px 28px -7px rgba(0, 0, 0, 0.25);
+}
+.plus-icon{
+    margin: auto;
+    margin-top:27px;
+}
+.create-btn-txt{
+    margin: 0;
+    padding:0;
+    color: #72919B;
+text-align: center;
+font-family: Istok Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.updates-section{
+    margin-top: 65px;
+}
+.Updates-heading{
+    color: #000;
+font-family: Inria Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px 0 20px 23px;
+}
+.floating-nav{
+    width: 155px; /* 208px */
+    height: 46px;
+    border-radius: 56px;
+    border: 1px solid #bab3b375;
+    box-shadow: 0px 4px 12px -4px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+    /* mix-blend-mode: overlay; */
+    position: fixed;
+    bottom: 14px;    /* Half the height of the viewport */
+  left: 50%;      /* Half the width of the viewport */
+  transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+

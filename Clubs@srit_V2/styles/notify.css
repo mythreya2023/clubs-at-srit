@@ -1,0 +1,42 @@
+.notfication{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.heading{
+    margin-left: 20px;
+}
+.notify-img{
+border-radius: 14px;
+}
+.notify-details{
+    display: flex;
+}
+.time-box{
+    margin:0;
+    padding: 0;
+    color: #706464;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.notify-by-box{
+max-width:197px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.notify-msg{
+   
+    color: #000;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}

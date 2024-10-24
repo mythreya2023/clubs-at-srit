@@ -1,0 +1,558 @@
+* {
+  -webkit-tap-highlight-color:transparent;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none;         /* Non-prefixed version, currently supported by Chrome, Opera, and Edge */
+}
+*:focus {
+  outline: none;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body{
+  margin: 0;
+  padding:0;
+
+}
+.heading{
+color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sub-heading{
+color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:5px 0 0 0;
+}
+.text-box{
+border:none;
+width: 85%;
+padding:0 0 0 15px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #F5F5F5;
+margin: 5px 0 5px 0;
+outline: none;
+}
+.text-box::placeholder{
+color: #A29898;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-area{
+outline: none;
+width: 85%;
+resize: none;
+font-size: 13px;
+color: darkslategray;
+min-height: 99px;
+flex-shrink: 0;
+padding:10px 0 10px 15px;
+border-radius: 9px;
+background: #F5F5F5;
+margin: 5px 0 5px 0;
+border:none;
+}
+.text-area::placeholder{
+color: #A29898;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.26px;
+width: 90%;
+height: 48px;
+font-size: 18px;
+flex-shrink: 0;
+border-radius: 13px;
+border:none;
+outline: none;
+margin:5px 0 5px 0;
+background: #46A3F9;
+margin: auto; 
+margin-left: 5%;
+}
+.btn:active{
+outline: none;
+border:none;
+}
+
+.btn-mini{
+border:none;
+outline: none;
+width: 80px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #46A3F9;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.btn-red{
+background: #DD554D;
+}
+.btn-orng{
+background: #D09F55;
+}
+.btn-green{
+background: #50BF54;
+}
+.text-btn-remove{
+color: #B45959;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.img-sq{
+width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 7px;
+object-fit: cover;
+object-position: center;
+}
+.img-round{
+width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 100%;
+object-fit: cover;
+object-position: center;   
+box-shadow: 0 0 7px -4px black;
+}
+.follow-btn{
+width: 91.11px;
+height: 34px;
+border:none;
+outline:none;
+flex-shrink: 0;
+border-radius: 8px;
+background: #438CE1;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.post-text{
+color: #000;
+font-family: Inria Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px; /* 150% */
+}
+.eve-card{
+width: 205px;
+height: 160px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #B2ECF4;
+padding: 15px;
+align-items: center;
+margin: 10px;
+}
+.eve-img{
+width: 100%;
+height: 114px;
+flex-shrink: 0;
+border-radius: 15px;
+object-fit: cover;
+object-position: center;
+}
+.eve-text{
+padding: 0 0 0 3px;
+
+}
+.eve-card-name{
+color: #000;
+font-family: Inria Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:0;
+padding:0;
+}
+.eve-card-by{
+color: #756D6D;
+font-family: Inria Sans;
+font-size: 12px;
+margin:0;
+padding:0;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.club-card{
+width: 175px;
+height: 140px;
+flex-shrink: 0;
+border-radius: 15px;
+padding:13px 3px 3px 3px;
+margin-right: 20px;
+text-align: center;
+border: 1px solid rgba(200, 198, 197, 0.48);
+background: #FFF;
+box-shadow: 0px 7px 28px -7px rgba(0, 0, 0, 0.25);
+}
+.club-img{
+width: 156.604px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 9px;
+object-fit: cover;
+object-position: center;
+}
+.club-card-name{
+color: #000;
+text-align: center;
+font-family: Istok Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin: 5px;
+padding: 0;
+line-height: normal;
+}
+.custom-select {
+overflow: hidden;
+outline:none;
+border:none;
+color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+height: auto;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.custom-select select {
+background: transparent;
+width: 100%;
+outline:none;
+border:none;
+box-shadow: none;
+background-image: none;
+-webkit-appearance: none;
+appearance: none;
+}
+
+/* For the arrow symbol in the right */
+.custom-select::after {
+content: '\25BC';
+position: absolute;
+top: 0;
+right: 0;
+cursor: pointer;
+pointer-events: none;
+transition: .25s all ease;
+}
+
+/* Change background color on hover */
+.custom-select:hover::after {
+background: #b3b3b3;
+}
+
+/* Hide the default checkbox */
+.checkbox-input {
+display: none;
+}
+
+/* Style for the custom checkbox icons */
+.custom-checkbox i {
+display: none;
+cursor: pointer;
+color: #4CAF50; /* Change the color as needed */
+}
+
+/* Show the unchecked icon by default */
+.custom-checkbox .fa-square {
+display: inline-block;
+}
+
+/* Hide the unchecked icon and show the checked icon when the checkbox is checked */
+.checkbox-input:checked + .fa-square {
+display: none;
+}
+
+.checkbox-input:checked ~ .fa-square-check {
+display: inline-block;
+}
+
+/* Style for the label text */
+.custom-checkbox {
+font-size: 18px;
+/* Add your styles for the label */
+}
+
+.checkbox-btn{
+  display: none;   
+}
+.btn-check .btn-cb{
+  width: 80px;
+height: 43px;
+border-radius: 9px;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+color: #A29898;
+background: #F5F5F5;    
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin:0;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.checkbox-btn:checked + .btn-cb{
+  background: #96DA90;
+  color: #FFF;
+}
+
+/* Hide the default radio button */
+.radio-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1; /* Put the input behind the label */
+}
+
+/* Style the label which will serve as our custom radio button */
+.radio-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  color: black; /* Default text color */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Hide the radio button */
+.radio-label .radio-input + .radio-text {
+  pointer-events: none;
+}
+
+/* Change color of the span text when the associated radio button is checked */
+.radio-input:checked + .radio-text {
+  
+  color: #3EA66E; /* Text color when radio is checked */
+}
+
+
+
+.circle-button {
+background-color: #C2DCF4;; /* Sky-blue background */
+border: none;             /* No border */
+color: #565B65;             /* White color for the icon */
+padding: 15px 20px;       /* Padding to create a circle shape */
+border-radius: 50%;       /* Circular shape */
+font-size: 20px;          /* Font size for the icon */
+cursor: pointer;          /* Pointer cursor on hover */
+display: flex;            /* Use flexbox for centering */
+justify-content: center;  /* Center horizontally */
+align-items: center;      /* Center vertically */
+width: 40px;              /* Fixed width */
+height: 40px;             /* Fixed height */
+}
+
+/* Optional: Add a hover effect */
+.circle-button:hover {
+background-color: #87CEEB; /* A lighter shade of sky blue for hover effect */
+}
+
+/* Font Awesome Icon Adjustment */
+.circle-button i {
+margin: 0;
+}
+
+.animi-btn {
+transition: transform 0.1s, background-color 0.2s; /* Transition for the click effect and hover */
+cursor:pointer;
+}
+
+.animi-btn:active {
+transform: scale(0.95); /* Scales down the button when clicked */
+}
+.club-posts{
+  width: 100%;
+  margin:0;
+}
+.club-post{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+padding: 20px;
+max-width: 400px;
+height: auto;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 2px 16px -11px rgb(30 27 27 / 84%);
+}
+.club-poster-details{
+  margin-left: 10px;
+}
+.club-post-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+.club-poster-img{
+  width: 40px;
+height: 40px;
+flex-shrink: 0;
+object-fit: cover;
+object-position: center;
+border-radius: 100%;
+box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.25);
+}
+.poster-name{
+  color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+padding: 0;
+}
+.by-club-name{
+  margin: 0;
+  padding: 0;
+  color: #9C9494;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.club-post-body{
+align-items: center;
+}
+.club-post-body-text{
+min-width: 299px;
+/* max-height: 138px; */
+color: #000;
+margin: 0;
+padding: 0;
+font-family: Inria Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 17px; /* 150% */
+}
+.club-post-img{
+  height:auto;
+  width:100%;
+  border-radius: 6px;
+  margin: 5px 0 0 0;
+}
+.club-post-footer {
+  margin: 18px 0 0 0;
+}
+
+/* Hide the default radio button */
+.custom-radio-button input[type="radio"] {
+  display: none;
+}
+
+/* Style for the icon and text label */
+.custom-radio-button .radio-icon {
+  color: #d1d1d1; /* Default icon color */
+  margin-right: 8px;
+}
+
+.custom-radio-button .radio-icon i{
+border: 2px solid #908888;
+border-radius: 100%;
+font-size: 12px;
+color: transparent;
+}
+/* When the radio button is checked, change the icon color */
+.custom-radio-button input[type="radio"]:checked + .radio-icon i {
+  color: #009688; /* Active icon color */
+  font-size: 16px;
+  border: none;
+}
+
+.custom-radio-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Optional: Change the cursor for the label to indicate it is selectable */
+/* .custom-radio-button:hover .radio-icon i {
+  color: #00796b;
+} */

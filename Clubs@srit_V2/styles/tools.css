@@ -1,0 +1,195 @@
+.count-reg-atte{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-col{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.right-col{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.registered-users{
+    margin-top: 50px;
+    margin-left: 4%;
+}
+.registered-users .team-member{
+    width: 95%;
+}
+.tool-buttons{
+    margin-top: 50px;
+}
+.tool-nav-btn{
+    margin-left: 0;
+    margin-bottom: 18px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.26px;
+}
+.vote-card{
+    width: 90%;
+    border-radius: 9px;
+background: #F5F5F5;
+}
+.card-quest {
+    /* border-bottom: 1px solid #595353d2; */
+    width: 90%;
+    padding-bottom: 0;
+    font-size: 18px;
+    color: #605353;
+}
+.card-quest-div{
+    color: #262222;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: flex-start;
+}
+input.rollno-txt-box {
+    color: #605353;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 92%;
+    height: 30px;
+    padding-left: 6%;
+    outline: none;
+    border: none;
+}
+.opt-rollnos {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(154, 140, 140);
+    border-bottom: 1px solid rgb(154, 140, 140);
+}
+
+.option-card{
+    width: 80%;
+    margin:auto;
+    border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.13);
+background: #FFF;
+margin-top: 15px;
+}
+.option-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+.done-opt-btn{
+    width: 97px;
+height: 28px;
+flex-shrink: 0;
+padding: 0 15px 0 15px;
+    border-radius: 6px;
+background: #5A9BE7;
+margin: auto;
+}
+.remove-opt-btn{
+    width: 97px;
+height: 28px;
+flex-shrink: 0;
+padding: 0 15px 0 15px;
+    border-radius: 6px;
+background: #de4444;
+margin: auto;
+}
+.add-opt-btn{
+    width: 144px;
+height: 35px;
+flex-shrink: 0;
+    padding: 0 15px 0 15px;
+    border-radius: 7px;
+    background: #D09F55;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.add-card-btn{
+    width: 163px;
+    height: 37px;
+flex-shrink: 0;
+    padding: 0 15px 0 15px;
+    border-radius: 10px;
+    background: #50BF54;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.opt-roll-part{
+    display: none;
+}
+.vcard-id{
+    margin-bottom: 3px;
+    color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.reg-sub-att-count{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.reg-sub-att-count .reg-att-count{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.reg-sub-att-count .reg-count{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.reg-sub-att-count .reg-count .right-side{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

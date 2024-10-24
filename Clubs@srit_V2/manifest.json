@@ -1,0 +1,83 @@
+{
+    
+  "name": "Clubs@SRIT",
+  "short_name": "Clubs@SRIT",
+  "start_url": "/",
+  "background_color": "white",
+  "display": "standalone",
+  "scope":"/",
+  "theme_color": "#E3FAFD",
+  "orientation":"portrait-primary",
+   
+"icons": [
+    {
+      "src": "/images/logo/SRIT_logo_96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo/SRIT_logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo/SRIT_logo_96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/logo/SRIT_logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/logo/SRIT_logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+        "src": "/images/logo/SRIT_logo_256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo/SRIT_logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+        "src": "/images/logo/SRIT_logo_256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+      "purpose": "maskable"
+    }
+   
+  ],
+  "screenshots": [
+    {
+      "src": "/images/sc_shots/cs_1.jpeg",
+      "type": "image/png",
+      "sizes": "540x1200",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/sc_shots/cs_2.jpeg",
+      "type": "image/jpg",
+      "sizes": "540x1200",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/sc_shots/cs_3.jpeg",
+      "type": "image/jpg",
+      "sizes": "540x1200",
+      "form_factor": "narrow"
+    }
+  ]
+}
